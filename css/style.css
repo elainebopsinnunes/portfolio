@@ -1,0 +1,113 @@
+/*
+****** LIMPAR FORMATAÇÕES ******
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+****** FOERMATAÇÕES GENERICAS ******
+*/
+body{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #94a4c4;
+    text-align: center;
+    color: black;
+}
+
+h1{
+    color: #2f9de2;
+    font-size: 80px;
+    text-align: center;
+}
+
+h2{
+    color: #2063a5;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    font-size: 30px;
+}
+
+/*
+****** HEADER ******
+*/
+#header{
+    background-color: #2063a5;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo, #menu{
+    padding: 10px;
+    font-size: 25px;
+}
+
+#header a:link, #header a:visited{
+    color: #FFFFFF;
+    padding: 8px 12px;
+}
+
+#header a:hover{
+    color: #2063a5;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+/*
+****** CONTENT ******
+*/
+#content{
+    width: 1050px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#posts{
+    width: 1050px;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.img-post{
+    width: 1050px;
+}
+
+/*
+****** FORMATAÇÃO LINKS ******
+*/
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #2063a5;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*
+****** FOOTER ******
+*/
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #94a4c4;
+    color: #2c8ed1;
+}
